@@ -7,7 +7,7 @@
 # ===================================
 
 # Input
-csv_fields = ['username_s', 'email_s', 'created_at_dt', 'orders_count_i']
+csv_fields = [] # Put your selected fields here. An example would be: ['username_s', 'email_s', 'created_at_dt', 'orders_count_i']
 solr_query = ARGV[0]
 
 
